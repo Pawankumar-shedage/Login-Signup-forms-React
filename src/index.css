@@ -1,0 +1,17 @@
+
+.container{
+  width: 50%;
+}
+
+
+button{
+  display: flex;
+  
+  width: 10rem;
+  margin: 1rem;
+}
+
+.empty-element::before{
+  content: ' ';
+
+}
